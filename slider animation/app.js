@@ -14,9 +14,7 @@ prevDom.onclick = function () {
 let timeRunning = 2000;
 let runTimeout;
 let timeAutoNext = 7000;
-let runTimeoutAuto = setTimeout(function () {
-	nextDom.click();
-}, timeAutoNext);
+let runTimeoutAuto 
 
 function showSlider(type) {
 	let itemSlider = document.querySelectorAll('.carousel .list .item');
